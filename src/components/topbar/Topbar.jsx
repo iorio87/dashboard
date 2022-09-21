@@ -1,5 +1,6 @@
 import "./topbar.scss";
-import { Notifications } from "@mui/icons-material";
+import { Notifications, Language, Settings } from "@mui/icons-material";
+import foto from "../../assets/profile.png";
 
 function Topbar() {
   return (
@@ -13,6 +14,14 @@ function Topbar() {
             <Notifications />
             <span className="topIconBadge">2</span>
           </div>
+          <div className="topIconContainer">
+            <Language />
+            <span className="topIconBadge">2</span>
+          </div>
+          <div className="topIconContainer">
+            <Settings />
+          </div>
+          <img src={foto} alt="profile"className="topAvatar"/>
         </div>
       </div>
     </div>
