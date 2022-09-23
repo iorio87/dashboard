@@ -48,3 +48,31 @@ export const userData = [
       "Active User": 5000,
     },
   ];
+
+
+  export const UserRows = [
+    {
+      id: 1,
+      username: "Milton Casco",
+      avatar: "https://cdn-icons-png.flaticon.com/512/147/147144.png",
+      email: "milton@gmail.com",
+      status: "active",
+      transaction: "$100",
+    },
+    {
+      id: 2,
+      username: "Roberto Carlos",
+      avatar: "https://cdn-icons-png.flaticon.com/512/147/147144.png",
+      email: "roberto@gmail.com",
+      status: "active",
+      transaction: "$150",
+    },
+    {
+      id: 3,
+      username: "Luis Miguel",
+      avatar: "https://cdn-icons-png.flaticon.com/512/147/147144.png",
+      email: "luismi@gmail.com",
+      status: "active",
+      transaction: "$70",
+    },
+  ];
