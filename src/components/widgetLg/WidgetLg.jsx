@@ -8,6 +8,7 @@ function WidgetLg() {
     <div className="widgetLg">
       <h3 className="widgetLgTitle">Ultimas Operaciones</h3>
       <table className="widgetLgTable">
+        <tbody>
         <tr className="widgetLgTr">
           <th className="widgetLgTh">Cliente</th>
           <th className="widgetLgTh">Fecha</th>
@@ -59,6 +60,7 @@ function WidgetLg() {
             <Button type="Pending"></Button>
           </td>
         </tr>
+        </tbody>
       </table>
     </div>
   );
