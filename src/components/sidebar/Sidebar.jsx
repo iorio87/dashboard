@@ -24,7 +24,7 @@ function Sidebar() {
           <h3 className="sidebarTitle">DashBoard</h3>
           <ul>
             <li className="sidebarListItem">
-              <Link to='/' className="sidebarLink">
+              <Link to='/' className="link">
               <LineStyle className="sidebarIcon" />
               Home
               </Link>
@@ -43,14 +43,16 @@ function Sidebar() {
           <h3 className="sidebarTitle">Acceso Rapido</h3>
           <ul>
             <li className="sidebarListItem">
-             <Link to='/users' className="sidebarLink">
+             <Link to='/users' className="link">
               <Person className="sidebarIcon" />
               Usuarios
              </Link> 
             </li>
             <li className="sidebarListItem">
+            <Link to='/products' className="link">
               <Storefront className="sidebarIcon" />
               Productos
+              </Link> 
             </li>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
