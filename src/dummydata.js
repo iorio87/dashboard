@@ -76,3 +76,30 @@ export const userData = [
       transaction: "$70",
     },
   ];
+
+  export const productRows = [
+    {
+      id: 1,
+      name: "Mouse",
+      image: "https://axa.com.ar/webaxa/20252-medium_default/mouse-gamer-logitech-g203-lightsync-usb.jpg",
+      stock: 10,
+      status: "active",
+      price: "$100",
+    },
+    {
+      id: 2,
+      name: "Teclado",
+      image: "https://www.sincable.mx/wp-content/uploads/2019/10/0-Tecaldo-gaming-122324698_m.jpg",
+      stock: 20,
+      status: "active",
+      price: "$150",
+    },
+    {
+      id: 3,
+      name: "Auriculares",
+      image: "https://centerelectronica.com.ar/wp-content/uploads/2022/03/2-6.png",
+      stock: 50,
+      status: "active",
+      price: "$70",
+    },
+  ];
