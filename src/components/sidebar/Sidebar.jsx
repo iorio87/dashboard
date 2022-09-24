@@ -14,6 +14,7 @@ import {
   ReportOutlined
 
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -23,8 +24,10 @@ function Sidebar() {
           <h3 className="sidebarTitle">DashBoard</h3>
           <ul>
             <li className="sidebarListItem">
+              <Link to='/' className="sidebarLink">
               <LineStyle className="sidebarIcon" />
               Home
+              </Link>
             </li>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
@@ -40,8 +43,10 @@ function Sidebar() {
           <h3 className="sidebarTitle">Acceso Rapido</h3>
           <ul>
             <li className="sidebarListItem">
+             <Link to='/users' className="sidebarLink">
               <Person className="sidebarIcon" />
               Usuarios
+             </Link> 
             </li>
             <li className="sidebarListItem">
               <Storefront className="sidebarIcon" />

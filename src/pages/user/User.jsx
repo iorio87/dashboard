@@ -6,17 +6,18 @@ import {
   PhoneAndroid,
   Publish,
 } from "@mui/icons-material";
-import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./user.scss";
 
 function User() {
-  const param = useParams();
-  console.log(param);
+  
   return (
     <div className="user">
       <div className="userTitleContainer">
         <h1 className="userTitle">Editar Usuario</h1>
+        <Link to='/newUser'>
         <button className="userAddButton">Crear</button>
+        </Link>
       </div>
       <div className="userContainer">
         <div className="userShow">
