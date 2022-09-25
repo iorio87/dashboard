@@ -37,10 +37,10 @@ function WidgetLg() {
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Roberto Garcia</span>
+            <span className="widgetLgName">Juan Gomez</span>
           </td>
-          <td className="widgetLgDate">22 de Sep de 2022</td>
-          <td className="widgetLgDate">$200</td>
+          <td className="widgetLgDate">24 de Sep de 2022</td>
+          <td className="widgetLgDate">$300</td>
           <td className="widgetLgDate">
             <Button type="Declined"></Button>
           </td>
@@ -52,10 +52,10 @@ function WidgetLg() {
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Roberto Garcia</span>
+            <span className="widgetLgName">Miguel Perez</span>
           </td>
-          <td className="widgetLgDate">22 de Sep de 2022</td>
-          <td className="widgetLgAmount">$200</td>
+          <td className="widgetLgDate">20 de Ago de 2022</td>
+          <td className="widgetLgAmount">$400</td>
           <td className="widgetLgStatus">
             <Button type="Pending"></Button>
           </td>

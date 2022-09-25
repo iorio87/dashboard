@@ -28,8 +28,8 @@ function WidgetSm() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Juan Perez</span>
-            <span className="widgetSmUsetTitle">Ingeniero</span>
+            <span className="widgetSmUsername">Roberto Carlos</span>
+            <span className="widgetSmUsetTitle">Diseñador</span>
           </div>
           <button className="widgetSmButton">
             <Visibility className="widgetSmIcon" />
@@ -43,8 +43,8 @@ function WidgetSm() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Juan Perez</span>
-            <span className="widgetSmUsetTitle">Ingeniero</span>
+            <span className="widgetSmUsername">Luis Miguel</span>
+            <span className="widgetSmUsetTitle">Developer</span>
           </div>
           <button className="widgetSmButton">
             <Visibility className="widgetSmIcon" />
@@ -58,8 +58,8 @@ function WidgetSm() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Juan Perez</span>
-            <span className="widgetSmUsetTitle">Ingeniero</span>
+            <span className="widgetSmUsername">Marco Antonio</span>
+            <span className="widgetSmUsetTitle">Developer</span>
           </div>
           <button className="widgetSmButton">
             <Visibility className="widgetSmIcon" />
@@ -73,8 +73,8 @@ function WidgetSm() {
             className="widgetSmImg"
           />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Juan Perez</span>
-            <span className="widgetSmUsetTitle">Ingeniero</span>
+            <span className="widgetSmUsername">Marcos Garcia</span>
+            <span className="widgetSmUsetTitle">Developer</span>
           </div>
           <button className="widgetSmButton">
             <Visibility className="widgetSmIcon" />
